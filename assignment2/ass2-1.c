@@ -4,10 +4,6 @@
 
 #include <stdlib.h>
 
-#pragma warning(disable: 4013)
-
-#pragma warning(disable:4996)
-
 int main()
 {
     char A[21], a[300], B[21], b[300];    // 배열 선언
