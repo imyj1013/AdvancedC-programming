@@ -14,7 +14,7 @@ int main()
     scanf("%d %d", &K1, &K2);     // 확인할 문자의 범위 입력받음
     getchar();
     for (int i = 0; i < M; i++) {
-        gets(ssss[i]);      // M개의 문자열 입력받음
+        gets(ssss[i]);       // M개의 문자열 입력받음
     }
     for (int i = 0; i < M; i++) {
         if (s_check(&ssss[i][K1], &ssss[i][K2]) != 0 && strlen(ssss[i]) >= K1) {     // 함수 반환값이 0 이 아니면
