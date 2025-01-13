@@ -114,7 +114,7 @@ void parking_info_sort(struct parking_info* p, int N)
     }
     for (pp = p; pp < p + N; pp++) {    // 차 번호에 따라 정렬
         for (ppp = pp; ppp < p + N; ppp++) {
-            if (pp->prod == 'D' && ppp->prod == 'D') {    // 두 차의 상품 종류가 모두 일일권이면
+            if (pp->prod == 'D' && ppp->prod == 'D') {     // 두 차의 상품 종류가 모두 일일권이면
                 if (pp->carnum > ppp->carnum) {    // 차 번호 기준으로 정렬
                     xx = *ppp;
                     *ppp = *pp;
